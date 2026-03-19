@@ -42,6 +42,6 @@ jobs:
       - name: Step 3 - Link Human to Agent
         run: |
           node scripts/manualLinkHumanToAgent.js --challenge '{
-            "name": "Looki",
-            "description": "Looki AI Agent"
+            "name": "did:iden3:billions:main:2VnWmXKsSwTCXjuAmDZ9hP64MUV9nQmnHA8pZ78Q1S",
+            "description": "did:iden3:billions:main:2VnWmXKsSwTCXjuAmDZ9hP64MUV9nQmnHA8pZ78Q1S AI Agent"
           }'
